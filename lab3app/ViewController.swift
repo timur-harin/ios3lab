@@ -45,6 +45,7 @@ class ViewController: UIViewController,UITextFieldDelegate {
 
     }
     
+    
     func getInitials(name: String?) -> String{
         let initials = name?.components(separatedBy: " ").reduce("") { ($0 == "" ? "" : "\($0.first ?? "A")") + "\($1.first ?? "A")" } ?? "AA"
         return initials
