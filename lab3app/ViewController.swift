@@ -39,8 +39,6 @@ class ViewController: UIViewController,UITextFieldDelegate {
         }
         
         nameLabel.delegate=self
-        
-        
     }
     
     
