@@ -42,12 +42,6 @@ class ViewController: UIViewController,UITextFieldDelegate {
         
         nameLabel.delegate=self
         
-        
-                NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow(_:)), name: UIResponder.keyboardWillShowNotification, object: nil)
-                NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillHide(_:)), name: UIResponder.keyboardWillHideNotification, object: nil)
-                
-                let tapGesture = UITapGestureRecognizer(target: self, action: #selector(dismissKeyboard))
-                view.addGestureRecognizer(tapGesture)
 
     }
     
@@ -136,24 +130,4 @@ class ViewController: UIViewController,UITextFieldDelegate {
     }
     
     
-    @objc private func keyboardWillShow(_ notification: Notification) {
-            if let keyboardSize = (notification.userInfo?[UIResponder.keyboardFrameEndUserInfoKey] as? NSValue)?.cgRectValue {
-                let contentInsets = UIEdgeInsets(top: 0, left: 0, bottom: keyboardSize.height, right: 0)
-                scrollView.contentInset = contentInsets
-                scrollView.scrollIndicatorInsets = contentInsets
-            }
-        }
-        
-        @objc private func keyboardWillHide(_ notification: Notification) {
-            scrollView.contentInset = .zero
-            scrollView.scrollIndicatorInsets = .zero
-        }
-        
-        @objc private func dismissKeyboard() {
-            view.endEditing(true)
-        }
-        
-        deinit {
-            NotificationCenter.default.removeObserver(self)
-        }
 }

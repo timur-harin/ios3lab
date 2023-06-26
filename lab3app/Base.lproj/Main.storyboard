@@ -16,72 +16,86 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" contentInsetAdjustmentBehavior="scrollableAxes" translatesAutoresizingMaskIntoConstraints="NO" id="ufe-fY-fdr">
-                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="g7o-k7-msY">
-                                        <rect key="frame" x="98" y="118" width="196" height="196"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
-                                    </imageView>
-                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="J7O-lH-iWF">
-                                        <rect key="frame" x="23" y="375" width="347" height="34"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                    </textField>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FYI-4g-EkQ">
-                                        <rect key="frame" x="333" y="455" width="46" height="35"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="tintColor" systemColor="secondaryLabelColor"/>
-                                        <state key="normal" title="Button" backgroundImage="pencil" catalog="system"/>
-                                        <buttonConfiguration key="configuration" style="plain" image="pencil" catalog="system"/>
-                                        <connections>
-                                            <action selector="universityButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Y7a-wU-gMu"/>
-                                        </connections>
-                                    </button>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="heH-u5-KKf">
-                                        <rect key="frame" x="8" y="455" width="317" height="133"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                        <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                        <color key="textColor" systemColor="labelColor"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="V12-5z-sD2">
-                                        <rect key="frame" x="8" y="596" width="317" height="129"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                        <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                        <color key="textColor" systemColor="labelColor"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o3V-Ti-Of7">
-                                        <rect key="frame" x="333" y="596" width="46" height="35"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="tintColor" systemColor="secondaryLabelColor"/>
-                                        <state key="normal" title="Button" backgroundImage="pencil" catalog="system"/>
-                                        <buttonConfiguration key="configuration" style="plain" image="pencil" catalog="system"/>
-                                        <connections>
-                                            <action selector="cityButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3xP-r6-WeX"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                                <viewLayoutGuide key="contentLayoutGuide" id="bQH-y1-Xc4"/>
-                                <viewLayoutGuide key="frameLayoutGuide" id="jp0-hD-1so"/>
-                            </scrollView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="g7o-k7-msY">
+                                <rect key="frame" x="98" y="97" width="197" height="198"/>
+                                <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="g7o-k7-msY" secondAttribute="height" multiplier="197:198" id="1I2-qW-AuJ"/>
+                                    <constraint firstAttribute="width" secondItem="g7o-k7-msY" secondAttribute="height" multiplier="197:198" id="3gT-aW-PKv"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FYI-4g-EkQ">
+                                <rect key="frame" x="331" y="436.66666666666669" width="46" height="34"/>
+                                <color key="tintColor" systemColor="secondaryLabelColor"/>
+                                <state key="normal" title="Button" backgroundImage="pencil" catalog="system"/>
+                                <buttonConfiguration key="configuration" style="plain" image="pencil" catalog="system"/>
+                                <connections>
+                                    <action selector="universityButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Y7a-wU-gMu"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="heH-u5-KKf">
+                                <rect key="frame" x="25.333333333333343" y="436.66666666666669" width="314.66666666666663" height="127.33333333333331"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="V12-5z-sD2">
+                                <rect key="frame" x="25.333333333333343" y="601" width="314.66666666666663" height="127.33333333333337"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="V12-5z-sD2" secondAttribute="height" multiplier="314:127" id="2z4-lW-cJq"/>
+                                    <constraint firstAttribute="width" secondItem="V12-5z-sD2" secondAttribute="height" multiplier="314:127" id="Jim-tx-gU2"/>
+                                </constraints>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o3V-Ti-Of7">
+                                <rect key="frame" x="331" y="601" width="46" height="34"/>
+                                <color key="tintColor" systemColor="secondaryLabelColor"/>
+                                <state key="normal" title="Button" backgroundImage="pencil" catalog="system"/>
+                                <buttonConfiguration key="configuration" style="plain" image="pencil" catalog="system"/>
+                                <connections>
+                                    <action selector="cityButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3xP-r6-WeX"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="leading" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="J7O-lH-iWF">
+                                <rect key="frame" x="16" y="383.66666666666669" width="367" height="23"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="heH-u5-KKf" firstAttribute="leading" secondItem="V12-5z-sD2" secondAttribute="leading" id="4B5-Ay-p8n"/>
+                            <constraint firstItem="g7o-k7-msY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5Hg-T6-h9L"/>
+                            <constraint firstItem="o3V-Ti-Of7" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="7Hg-fp-Vws"/>
+                            <constraint firstItem="heH-u5-KKf" firstAttribute="centerX" secondItem="V12-5z-sD2" secondAttribute="centerX" id="ICt-GV-FrA"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="J7O-lH-iWF" secondAttribute="trailing" constant="10" id="MKh-jZ-ONN"/>
+                            <constraint firstItem="heH-u5-KKf" firstAttribute="top" secondItem="J7O-lH-iWF" secondAttribute="bottom" constant="29.999999999999943" id="O6W-sr-lKN"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="heH-u5-KKf" secondAttribute="trailing" constant="53" id="WH1-Yd-Pzv"/>
+                            <constraint firstItem="g7o-k7-msY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="98" id="WQx-kH-tcg"/>
+                            <constraint firstItem="g7o-k7-msY" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="38" id="XbC-Tp-iNv"/>
+                            <constraint firstAttribute="bottom" secondItem="heH-u5-KKf" secondAttribute="bottom" constant="288" id="ZNE-FU-R87"/>
+                            <constraint firstItem="heH-u5-KKf" firstAttribute="top" secondItem="FYI-4g-EkQ" secondAttribute="top" id="cp8-Hh-8fq"/>
+                            <constraint firstItem="o3V-Ti-Of7" firstAttribute="leading" secondItem="FYI-4g-EkQ" secondAttribute="leading" id="gAP-OS-cbr"/>
+                            <constraint firstItem="V12-5z-sD2" firstAttribute="height" secondItem="heH-u5-KKf" secondAttribute="height" id="ggj-ox-ZnC"/>
+                            <constraint firstItem="V12-5z-sD2" firstAttribute="top" secondItem="heH-u5-KKf" secondAttribute="bottom" constant="37" id="hCH-9g-clz"/>
+                            <constraint firstItem="J7O-lH-iWF" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="nSJ-Vw-010"/>
+                            <constraint firstItem="V12-5z-sD2" firstAttribute="top" secondItem="o3V-Ti-Of7" secondAttribute="top" id="osb-Gb-dhX"/>
+                            <constraint firstItem="heH-u5-KKf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25.333333333333343" id="p5k-Ce-Iy3"/>
+                            <constraint firstItem="V12-5z-sD2" firstAttribute="width" secondItem="heH-u5-KKf" secondAttribute="width" id="z97-iB-R0D"/>
+                            <constraint firstItem="J7O-lH-iWF" firstAttribute="top" secondItem="g7o-k7-msY" secondAttribute="bottom" constant="88.666666666666742" id="zP0-Zj-aeS"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="avatarImageView" destination="g7o-k7-msY" id="m6w-7p-3ko"/>
                         <outlet property="cityLabel" destination="V12-5z-sD2" id="doI-hN-XBm"/>
                         <outlet property="nameLabel" destination="J7O-lH-iWF" id="aeS-YN-XRP"/>
-                        <outlet property="scrollView" destination="ufe-fY-fdr" id="oN9-sQ-nrg"/>
                         <outlet property="universityLabel" destination="heH-u5-KKf" id="5yv-eD-Poc"/>
                     </connections>
                 </viewController>
